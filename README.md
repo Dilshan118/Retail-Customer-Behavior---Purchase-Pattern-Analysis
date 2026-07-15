@@ -11,7 +11,8 @@ graph TD
     A[Raw CSV: customer_shopping_behavior.csv] -->|Python & Pandas| B(Data Cleaning & Engineering)
     B -->|SQLAlchemy & Psycopg2| C[(Local PostgreSQL Database)]
     C -->|SQL Queries| D[Business Insights & Analytics]
-    C -->|Seaborn & Matplotlib| E[Data Visualization Dashboard]
+    C -->|Seaborn & Matplotlib| E[Python Visualization Dashboard]
+    C -->|Local IP Connection| F[Power BI Dashboard]
 ```
 
 ---
@@ -74,10 +75,10 @@ To enable visual decision-making for executive stakeholders, a custom **Retail P
 
 ## 📂 Project Repository Structure
 
-* `Customer_Shopping_Behavior_Analysis.ipynb` — The primary Jupyter notebook containing data ingestion, cleaning, feature engineering, visualizations, and database loader scripts.
-* `customer_shopping_behavior.csv` — The raw retail transactions dataset.
-* `Customer_Shopping_Behavior_Analysis.sql` — Raw SQL scripts executing business queries against the PostgreSQL database.
-* `PostgreSQL_Setup.md` — Reference guide documenting PostgreSQL installation, local network setup, and connection configurations.
+* [Customer_Shopping_Behavior_Analysis.ipynb](Customer_Shopping_Behavior_Analysis.ipynb) — The primary Jupyter notebook containing data ingestion, cleaning, feature engineering, visualizations, and database loader scripts.
+* [customer_shopping_behavior.csv](customer_shopping_behavior.csv) — The raw retail transactions dataset.
+* [Customer_Shopping_Behavior_Analysis.sql](Customer_Shopping_Behavior_Analysis.sql) — Raw SQL scripts executing business queries against the PostgreSQL database.
+* [PostgreSQL_Setup.md](../PostgreSQL_Setup.md) — Reference guide documenting PostgreSQL installation, local network setup, and connection configurations.
 
 ---
 
