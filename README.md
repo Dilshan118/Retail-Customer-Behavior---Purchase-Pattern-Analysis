@@ -56,6 +56,22 @@ graph TD
 
 ---
 
+## 📊 Power BI Dashboard
+
+To enable visual decision-making for executive stakeholders, a custom **Retail Purchase Analytics Dashboard** was created in Power BI, connected directly via a local network link to the PostgreSQL database.
+
+### Key Visual Components:
+* **KPI Cards:** Displaying real-time transactional summary metrics (e.g., total customer count, average review ratings, and average purchase amounts).
+* **Treemap Visual:** Optimizing the view of *Sales by Product Category* to instantly distinguish category hierarchy.
+* **Funnel Visual:** Breaking down transaction volumes across *Age Groups* in a clean sales funnel format.
+* **Slicer Pane:** Interactive toggles allowing stakeholders to slice revenue metrics by *Subscription Status, Gender, Category, and Shipping Type* on-the-fly.
+
+<p align="center">
+  <img src="images/powerbi_dashboard.png" width="800" alt="Power BI Analytics Dashboard">
+</p>
+
+---
+
 ## 📂 Project Repository Structure
 
 * `Customer_Shopping_Behavior_Analysis.ipynb` — The primary Jupyter notebook containing data ingestion, cleaning, feature engineering, visualizations, and database loader scripts.
