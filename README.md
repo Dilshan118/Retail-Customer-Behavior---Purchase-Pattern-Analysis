@@ -4,6 +4,21 @@ An end-to-end data engineering and analytics pipeline designed to ingest, clean,
 
 ---
 
+## 🎯 The Business Problem & Objectives
+
+In the modern retail and e-commerce landscape, a lack of data-driven insights leads to critical operational inefficiencies:
+1. **Profit Margin Erosion:** Running generic, untargeted promotions that reduce margins without driving larger order sizes.
+2. **Seasonal Inventory Misalignment:** Overstocking items during low-demand seasons (leading to storage overheads) or experiencing stockouts during peak quarters.
+3. **Payment Friction:** High checkout cart abandonment rates caused by mismatching demographic payment preferences (e.g. PayPal vs. Credit Cards).
+
+### Project Deliverables:
+* **Ingestion & Processing:** Build an automated Python pipeline using **Pandas** to clean transaction data and compute behavioral features.
+* **Relational Storage:** Establish secure storage by migrating processed records to a local **PostgreSQL** database instance.
+* **Analytical Querying:** Execute optimized SQL scripts using **DBeaver** to segment customer categories and calculate revenues.
+* **Business Intelligence:** Output high-impact visualizations in **Seaborn** and design an interactive **Power BI Dashboard** for executive stakeholders.
+
+---
+
 ## 🏗️ Project Architecture & Data Flow
 
 ```mermaid
@@ -78,6 +93,7 @@ To enable visual decision-making for executive stakeholders, a custom **Retail P
 * [Customer_Shopping_Behavior_Analysis.ipynb](Customer_Shopping_Behavior_Analysis.ipynb) — The primary Jupyter notebook containing data ingestion, cleaning, feature engineering, visualizations, and database loader scripts.
 * [customer_shopping_behavior.csv](customer_shopping_behavior.csv) — The raw retail transactions dataset.
 * [Customer_Shopping_Behavior_Analysis.sql](Customer_Shopping_Behavior_Analysis.sql) — Raw SQL scripts executing business queries against the PostgreSQL database.
+* [Retail_Customer_Analysis_Report.pdf](Retail_Customer_Analysis_Report.pdf) — A professional case study PDF report containing executive summaries, pipeline details, and embedded visualization charts.
 * [PostgreSQL_Setup.md](../PostgreSQL_Setup.md) — Reference guide documenting PostgreSQL installation, local network setup, and connection configurations.
 
 ---
