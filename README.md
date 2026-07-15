@@ -32,15 +32,27 @@ graph TD
 * **Business Impact:** The current flat-discount structure dilutes profit margins without successfully driving larger cart sizes or transaction values.
 * **Recommendation:** Replace flat discounts with minimum-spend thresholds (e.g., *"Spend $75 or more and get 15% off"*). This forces customers to add more items to their carts to qualify for savings, boosting Average Order Value (AOV).
 
+<p align="center">
+  <img src="images/discount_impact.png" width="600" alt="Discount Impact Analysis">
+</p>
+
 ### 2. Seasonal Inventory Management
 * **Finding:** **Clothing** sales peak during **Spring** ($27.7k) and **Winter** ($27.3k) but experience a drop during **Summer** ($23k). Conversely, **Accessories** see sales peaks during **Fall** and **Summer**.
 * **Business Impact:** Misaligned stock allocations lead to high storage costs for unsold items and stockouts for high-demand items.
 * **Recommendation:** Optimize warehousing schedules by reducing summer clothing inventory and scaling up accessories production/procurement ahead of the fall season.
 
+<p align="center">
+  <img src="images/seasonal_sales.png" width="600" alt="Seasonal Category Demand">
+</p>
+
 ### 3. Demographic Checkout Customization
 * **Finding:** **Middle-aged** customers show a strong preference for **PayPal** as their primary checkout payment method, while **Seniors** and **Young Adults** prefer **Credit Cards** and **Cash**.
 * **Business Impact:** Payment frictions during checkout cause cart abandonment.
 * **Recommendation:** Implement dynamic checkout UI styling. If the logged-in user is middle-aged, surface the PayPal option at the top of the payment screen to create a frictionless purchasing flow.
+
+<p align="center">
+  <img src="images/payment_preferences.png" width="700" alt="Payment Preferences by Age Group">
+</p>
 
 ---
 
